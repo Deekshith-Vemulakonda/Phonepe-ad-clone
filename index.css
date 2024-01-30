@@ -1,0 +1,72 @@
+#purple{
+    background-color: #6739B6;
+}
+
+#text{
+    color: white;
+    font-weight: 1000;
+    margin: 50px;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+
+.navbar{
+   background-color: #6739B6;
+}
+
+#secondimg{
+    height: 300px;
+    width:auto;
+    transform: rotate(20deg);
+    justify-self: center;
+}
+
+#white-section{
+    
+    justify-content: center;
+    
+}
+.h5t{
+   font-size: large;
+   font-weight: bolder;
+}
+
+.cardimg{
+    height: 64px;
+    width: auto;
+
+}
+
+.cards{
+    margin: 0 10px;
+    box-shadow: 0px 49px 40px  rgba(50, 50, 71, 0.05);
+    padding:100px;
+    margin: 50px 10px;
+}
+
+#grey-section{
+    background-color: lightgray;
+    justify-content: center;
+}
+#obama{
+    border-radius: 50%;
+    height: 64px;
+    width: auto;
+}
+
+.botimg{
+    width:100px;
+    height:auto;
+    margin-right: 30px;
+}
+@media only screen and (max-width:1024px){
+    #secondimg {
+    
+        transform: rotate(0);
+        width: 50%;
+      }
+    .dbtn{
+        display: block;
+    }
+}
